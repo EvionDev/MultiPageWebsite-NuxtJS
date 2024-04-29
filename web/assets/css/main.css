@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background font-primary text-neutral;
+}
+
+.wrapper {
+  @apply container mx-auto px-4;
+}
+
+.btn {
+  @apply w-full rounded-[100px] bg-secondary px-6 py-4 text-neutral transition-colors duration-300 hover:bg-[#A73B65] md:w-auto;
+}
+
+.btn-secondary {
+  @apply mt-8 w-fit rounded-[100px] border  border-solid px-12 py-4  font-bold transition-colors  duration-300;
+}
